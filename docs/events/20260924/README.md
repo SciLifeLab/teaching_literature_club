@@ -67,6 +67,28 @@ How would you criticise the paper?
     - ...
     - ...
 
+Do you believe that we should do what this paper advises?
+
+???- question "Answers"
+
+    - R: No. This is just a success story that has no credibility to me
+    - ...
+    - ...
+    - ...
+
+
+
+How does this paper make us better teachers?
+
+???- question "Answers"
+
+    - R: It makes us happier that we are not forced into programs that cannot
+      prove their own worth.
+    - ...
+    - ...
+    - ...
+
+
 ## Notes
 
 SoTL started with `[Hutchings and Shulman, 1999]` to, I quote:
