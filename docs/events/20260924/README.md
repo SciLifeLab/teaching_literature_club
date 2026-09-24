@@ -23,6 +23,15 @@ Talk: why I chose this paper
     I wanted to know if reading the literature to improve teaching is worth it:
     to which extent does it make one a better teacher.
 
+```text
+1. What grade on a scale from 1 (worst) to 10 (best) would you give this paper?
+2. How would you summarize this paper in one line?
+3. How would you praise the paper?
+4. How would you criticise the paper?
+5. Do you believe that we should do what this paper advises?
+6. How does this paper make us better teachers?
+```
+
 What grade on a scale from 1 (worst) to 10 (best) would you give this paper?
 
 ???- question "Answers"
@@ -181,3 +190,4 @@ Book mentioned:
   [DOI to paper](https://doi.org/10.1080/07294360.2011.536972)
 
 <!-- markdownlint-enable MD013 -->
+
