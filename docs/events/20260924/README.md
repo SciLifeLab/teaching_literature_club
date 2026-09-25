@@ -86,7 +86,6 @@ Do you believe that we should do what this paper advises?
     - ...
 
 
-
 How does this paper make us better teachers?
 
 ???- question "Answers"
