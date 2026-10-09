@@ -47,8 +47,6 @@ and discusses it in an informal way.
 - `[1]` due to Christmas
 
 
-
-
 <!-- markdownlint-enable MD013 -->
 
 - For [past events](events/README.md), see [events](events/README.md).
