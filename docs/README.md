@@ -35,7 +35,7 @@ and discusses it in an informal way.
 | Date                              | Person                | Description                                                                                                                                                                                                                                                                  |
 | --------------------------------- | --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 2026-10-29                        | No TLC                | No TLC
-| 2026-11-26                        | Richèl Bilderbeek     | Matthews, Michael T., and Stephen C. Yanchar. "Instructional designers’ perspectives on learners’ responsibility for learning." Journal of Computing in Higher Education 30.1 (2018): 111-124. [DOI to paper](https://doi.org/10.1007/s12528-018-9175-3)
+| 2026-11-26                        | Richèl Bilderbeek     | Matteucci, M.C., Guglielmi, D. & Lauermann, F. Teachers’ sense of responsibility for educational outcomes and its associations with teachers’ instructional approaches and professional wellbeing. Soc Psychol Educ 20, 275–298 (2017). [DOI](https://doi.org/10.1007/s11218-017-9369-y)
 | 2026-12-17 `[1]`                  | TBA                   | TBA
 | 2027-01-28                        | TBA                   | TBA
 | 2027-02-25                        | TBA                   | TBA
@@ -45,6 +45,8 @@ and discusses it in an informal way.
 | ?2027-06-24                       | TBA                   | TBA
 
 - `[1]` due to Christmas
+
+
 
 
 <!-- markdownlint-enable MD013 -->
