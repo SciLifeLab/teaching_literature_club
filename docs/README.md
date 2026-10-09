@@ -34,9 +34,8 @@ and discusses it in an informal way.
 
 | Date                              | Person                | Description                                                                                                                                                                                                                                                                  |
 | --------------------------------- | --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2026-09-24                        | Richèl Bilderbeek     | Mårtensson, Katarina, Torgny Roxå, and Thomas Olsson. "Developing a quality culture through the scholarship of teaching and learning." Higher Education Research & Development 30.1 (2011): 51-62. [DOI to paper](https://doi.org/10.1080/07294360.2011.536972)
 | 2026-10-29                        | No TLC                | No TLC
-| 2026-11-26                        | TBA                   | TBA
+| 2026-11-26                        | Richèl Bilderbeek     | Matthews, Michael T., and Stephen C. Yanchar. "Instructional designers’ perspectives on learners’ responsibility for learning." Journal of Computing in Higher Education 30.1 (2018): 111-124. [DOI to paper](https://doi.org/10.1007/s12528-018-9175-3)
 | 2026-12-17 `[1]`                  | TBA                   | TBA
 | 2027-01-28                        | TBA                   | TBA
 | 2027-02-25                        | TBA                   | TBA
