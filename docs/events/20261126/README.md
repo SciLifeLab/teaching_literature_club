@@ -43,10 +43,7 @@ How would you summarize this paper in one line?
 
 ???- question "Answers"
 
-    - R: ...
-    - ...
-    - ...
-    - ...
+    - R: Teachers feeling responsible has some effects on other things
 
 How would you praise the paper?
 
@@ -61,7 +58,9 @@ How would you criticise the paper?
 
 ???- question "Answers"
 
-    - R: ...
+    - R: The data, nor the data analysis scripts are not available for download.
+      Using a p-value of 0.1 to get 'a result' feels dishonest to me.
+
     - ...
     - ...
     - ...
@@ -70,7 +69,7 @@ Do you believe that we should do what this paper advises?
 
 ???- question "Answers"
 
-    - R: ...
+    - R: This paper gives no advice, it only charts what is there
     - ...
     - ...
     - ...
@@ -80,7 +79,7 @@ How does this paper make us better teachers?
 
 ???- question "Answers"
 
-    - R: ...
+    - R: There is no need to feel personally responsible: the effect is mild.
     - ...
     - ...
     - ...
@@ -171,35 +170,35 @@ flowchart LR
     CS["Career-choice Satisfaction<br/>(R² = .10)"]
     WE["Work Engagement<br/>(R² = .13)"]
 
-    %% Solid lines (p < 0.001, keep value)
+    %% Solid lines (p <= 0.001, black, value retained)
     SE -->|.26| TR
     SE -->|.28| MP
     CS <-->|.40| WE
 
-    %% Dotted lines (p < 0.01, keep value)
+    %% Dotted lines (p: 0.01 - 0.001, dark gray, value retained)
     TR -...->|.20| MP
     SE -...->|.16| WE
     SC -...->|.19| CS
     SC -...->|.20| WE
 
-    %% Dashed lines (p >= 0.05, remove value)
-    IT -.-> TR
-    SC -.-> TR
-    TR -.-> CS
-    TR -.-> WE
-    SE -.-> CS
-    IT -.-> MP
-    IT -.-> WE
-    SE <-.-> SC
+    %% Dashed lines (p: 0.05 - 0.01, light gray, value retained)
+    IT -.->|.13| TR
+    SC -.->|.13| TR
+    TR -.->|.18| CS
+    TR -.->|.15| WE
+    IT -.->|.11| WE
+    SE <-.->|.12| SC
 
-    %% Styling for visual differentiation across renderers
-    %% Solid links: 0, 1, 2
-    linkStyle 0,1,2 stroke:#000,stroke-width:2px;
-    %% Dotted links: 3, 4, 5, 6
-    linkStyle 3,4,5,6 stroke:#333,stroke-width:2px,stroke-dasharray:2 3;
-    %% Dashed links: 7, 8, 9, 10, 11, 12, 13, 14
-    linkStyle 7,8,9,10,11,12,13,14 stroke:#666,stroke-width:1.5px,stroke-dasharray:6 4;
+    %% Renderer Link Styling Rules
+    %% Solid links (0, 1, 2) - Black
+    linkStyle 0,1,2 stroke:#000000,stroke-width:2.5px;
+    %% Dotted links (3, 4, 5, 6) - Dark Gray (#444444)
+    linkStyle 3,4,5,6 stroke:#444444,stroke-width:2px,stroke-dasharray:2 4;
+    %% Dashed links (7, 8, 9, 10, 11, 12) - Light Gray (#aaaaaa)
+    linkStyle 7,8,9,10,11,12 stroke:#aaaaaa,stroke-width:1.5px,stroke-dasharray:6 4;
 ```
+
+Mastery learning has an effect size of 0.57 [John Hattie]
 
 ## Scribbles 2
 
