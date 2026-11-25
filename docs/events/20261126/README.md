@@ -8,9 +8,91 @@ tags:
 
 - Date: 2026-11-26
 - Lead discussion: Richel Bilderbeek
-- Paper: ...
+- Paper: Matteucci, M.C., Guglielmi, D. & Lauermann, F. Teachers’ sense of responsibility for educational outcomes and its associations with teachers’ instructional approaches and professional wellbeing. Soc Psychol Educ 20, 275–298 (2017). [DOI](https://doi.org/10.1007/s11218-017-9369-y)
+
+
+## Discussion
+
+Talk: why I chose this paper
+
+???- question "Answers"
+
+    I wanted to know if reading the literature to improve teaching is worth it:
+    to which extent does it make one a better teacher.
+
+
+???- question "Questions I will ask as an easy copy-paste"
+
+
+    ```text
+    1. What grade on a scale from 1 (worst) to 10 (best) would you give this paper?
+    2. How would you summarize this paper in one line?
+    3. How would you praise the paper?
+    4. How would you criticise the paper?
+    5. Do you believe that we should do what this paper advises?
+    6. How does this paper make us better teachers?
+    ```
+
+What grade on a scale from 1 (worst) to 10 (best) would you give this paper?
+
+???- question "Answers"
+
+    - ...
+
+How would you summarize this paper in one line?
+
+???- question "Answers"
+
+    - R: ...
+    - ...
+    - ...
+    - ...
+
+How would you praise the paper?
+
+???- question "Answers"
+
+    - R: ...
+    - ...
+    - ...
+    - ...
+
+How would you criticise the paper?
+
+???- question "Answers"
+
+    - R: ...
+    - ...
+    - ...
+    - ...
+
+Do you believe that we should do what this paper advises?
+
+???- question "Answers"
+
+    - R: ...
+    - ...
+    - ...
+    - ...
+
+
+How does this paper make us better teachers?
+
+???- question "Answers"
+
+    - R: ...
+    - ...
+    - ...
+    - ...
+
+
+
 
 ## Scribbles
+
+- Efficacy: well something works, i.e. how well it produces the intended result.
+  For example: 'one-on-one teaching has a higher efficacy in producing high
+  grades than classroom teaching'
 
 <!-- markdownlint-disable MD013 --><!-- Not now ... -->
 
