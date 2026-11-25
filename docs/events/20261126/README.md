@@ -86,13 +86,123 @@ How does this paper make us better teachers?
     - ...
 
 
+## Scribbles 1
 
+```mermaid
+flowchart TD
+  
+  formal_responsibility
+  personal_responsibility
+  formal_responsibility --> |May be extended by| personal_responsibility
+  personal_responsibility -.- personal_responsibility_predictors
+  self_efficacy
+  self_efficacy <--> |Independent|personal_responsibility
+  instructional_approaches
+  wellbeing
+  personal_responsibility_predictors --> |Effect on| instructional_approaches
+  personal_responsibility_predictors --> |Effect on| wellbeing
 
-## Scribbles
+  personal_responsibility --> |Correlates with| work_engagement
+  personal_responsibility --> |Correlates with| job_satisfaction
+  personal_responsibility --> |Correlates with| endorse_mastery_oriented_instructional_practices
+```
 
 - Efficacy: well something works, i.e. how well it produces the intended result.
   For example: 'one-on-one teaching has a higher efficacy in producing high
   grades than classroom teaching'
+- Mastery-goal classroom structure: a learning environment that emphasizes
+  understanding, improvement, and developing skills, i.e.
+  competetion with self, not others
+
+My questions:
+
+- Why is it important that teachers feel responsible beyond their formal duties?
+  Why are the formal duties not extended instead?
+
+
+
+
+
+
+
+What is this text below..?
+
+> Expanding upon previous qualitative research, which had used
+> teacher interview data (Lautheir general choiceermann 2014)
+
+
+Teacher Responsibility Scale (TRS, Lauermann and Karabenick 2013)
+has four domains:
+- responsibility for student motivation
+- student achievement
+- relationships with students
+- (responsibility for) teaching
+
+
+
+| Aspect                           |    1    |     2     |    3    |    4    |     5     |     6     |     7     |    8    |     9     |
+|:-------------------------------- |:-------:|:---------:|:-------:|:-------:|:---------:|:---------:|:---------:|:-------:|:---------:|
+| 1. Responsibility                |    /    |  **.29**  |   .17   |   .18   |  **.24**  |  **.25**  |  **.30**  |         |    -.21   |
+| 2. Self-efficacy                 |         |     /     |         |         |    .18    |  **.24**  |  **.34**  |         |           |
+| 3. Incremental theory            |         |           |    /    |         |           |    .18    |    .17    |         |           |
+| 4. Relationships with students   |         |           |         |    /    |  **.23**  |  **.25**  |           |         |           |
+| 5. Career-choice satisfaction    |         |           |         |         |     /     |  **.47**  |  **.21**  |         |           |
+| 6. Work engagement               |         |           |         |         |           |     /     |  **.24**  |         |           |
+| 7. Mastery practices             |         |           |         |         |           |           |     /     |         |           |
+| 8. Age                           |         |           |         |         |           |           |           |    /    |  **.75**  |
+| 9. Teaching experience           |         |           |         |         |           |           |           |         |     /     |
+
+> Top part of Table 1 from Matteucci, Guglielmi, & Lauermann (2017),
+> presenting bivariate correlations between the 9 aspects.
+> Values with **p < 0.001** are rendered in **bold**.
+> Values with **p < 0.01** are rendered in normal text.
+
+
+```mermaid
+flowchart LR
+    %% Nodes
+    SE["Teacher<br/>Self-efficacy"]
+    IT["Incremental<br/>Theory"]
+    SC["School Climate:<br/>Relationships with Students"]
+    
+    TR["Teacher Responsibility<br/>(R² = .11)"]
+    
+    MP["Mastery Practices<br/>(R² = .16)"]
+    CS["Career-choice Satisfaction<br/>(R² = .10)"]
+    WE["Work Engagement<br/>(R² = .13)"]
+
+    %% Solid lines (p < 0.001, keep value)
+    SE -->|.26| TR
+    SE -->|.28| MP
+    CS <-->|.40| WE
+
+    %% Dotted lines (p < 0.01, keep value)
+    TR -...->|.20| MP
+    SE -...->|.16| WE
+    SC -...->|.19| CS
+    SC -...->|.20| WE
+
+    %% Dashed lines (p >= 0.05, remove value)
+    IT -.-> TR
+    SC -.-> TR
+    TR -.-> CS
+    TR -.-> WE
+    SE -.-> CS
+    IT -.-> MP
+    IT -.-> WE
+    SE <-.-> SC
+
+    %% Styling for visual differentiation across renderers
+    %% Solid links: 0, 1, 2
+    linkStyle 0,1,2 stroke:#000,stroke-width:2px;
+    %% Dotted links: 3, 4, 5, 6
+    linkStyle 3,4,5,6 stroke:#333,stroke-width:2px,stroke-dasharray:2 3;
+    %% Dashed links: 7, 8, 9, 10, 11, 12, 13, 14
+    linkStyle 7,8,9,10,11,12,13,14 stroke:#666,stroke-width:1.5px,stroke-dasharray:6 4;
+```
+
+## Scribbles 2
+
 
 <!-- markdownlint-disable MD013 --><!-- Not now ... -->
 
