@@ -130,18 +130,18 @@ effect sizes are big enough to matter?
       Also, 'Teacher Responsibility' is put on a six-point Likert scale,
       ranging from 0 (not at all) to 6 (completely) <!-- isn't that 7? -->
       The effect size of IT to TR is 0.13. This means that a teacher
-      that fully believes in IT, he/she feels 0.13 * 5 = 0.65 more
-      responsibility. Is that a lot?
+      that fully believes in IT, he/she feels (`0.13 * 5 =`) 0.65 more
+      responsibility. 
+      If we center this increase around the mean TR of 4.53
+      (as given in that same table),
+      then TR goed up from (`4.53 - (0.65 / 2) =`) 4.205 
+      to (`4.53 + (2.265 / 2) =`) 4.855.
+      This is an increase of (`4.855 - 4.205 / 4.205 =`) 15%
+      between the extremes. 
+      Is that a lot?
     - ...
     - ...
     - ...
-
-
-
-
-
-The items were rated on a seven-point Likert scale, ranging from 0
-(not at all) to 6 (completely).
 
 
 <!-- Extra question -->
