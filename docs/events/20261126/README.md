@@ -28,7 +28,7 @@ Talk: why I chose this paper
 
 
     ```text
-    1. What grade on a scale from 1 (worst) to 10 (best) 
+    1. What grade on a scale from 1 (worst) to 10 (best)
        would you give this paper?
     2. How would you summarize this paper in one line?
     3. How would you praise the paper?
@@ -92,9 +92,9 @@ effect sizes are big enough to matter?
         SE["Teacher<br/>Self-efficacy"]
         IT["Incremental<br/>Theory"]
         SC["School Climate:<br/>Relationships with Students"]
-        
+
         TR["Teacher Responsibility<br/>(R² = .11)"]
-        
+
         MP["Mastery Practices<br/>(R² = .16)"]
         CS["Career-choice Satisfaction<br/>(R² = .10)"]
         WE["Work Engagement<br/>(R² = .13)"]
@@ -131,20 +131,20 @@ effect sizes are big enough to matter?
 
 ???- question "Answers"
 
-    - R: I struggle with seeing this. 
+    - R: I struggle with seeing this.
       E.g. 'Incremental theory' is put on a six-point Likert scale,
       ranging from 1 (strongly agree) to 6 (strongly disagree).
       Also, 'Teacher Responsibility' is put on a six-point Likert scale,
       ranging from 0 (not at all) to 6 (completely) <!-- isn't that 7? -->
       The effect size of IT to TR is 0.13. This means that a teacher
       that fully believes in IT, he/she feels (`0.13 * 5 =`) 0.65 more
-      responsibility. 
+      responsibility.
       If we center this increase around the mean TR of 4.53
       (as given in that same table),
-      then TR goed up from (`4.53 - (0.65 / 2) =`) 4.205 
+      then TR goed up from (`4.53 - (0.65 / 2) =`) 4.205
       to (`4.53 + (2.265 / 2) =`) 4.855.
       This is an increase of (`4.855 - 4.205 / 4.205 =`) 15%
-      between the extremes. 
+      between the extremes.
       Is that a lot?
     - ...
     - ...
@@ -236,7 +236,7 @@ Training Hubs and could not find any document to state we need to do more.
 
 ```mermaid
 flowchart TD
-  
+
   formal_responsibility
   personal_responsibility
   formal_responsibility --> |May be extended by| personal_responsibility
