@@ -52,7 +52,7 @@ How would you praise the paper?
 
 ???- question "Answers"
 
-    - R: I enjoyed the introduction and the .
+    - R: I enjoyed the introduction, method and the figure the methods produced.
     - ...
     - ...
     - ...
@@ -63,7 +63,6 @@ How would you criticise the paper?
 
     - R: The data, nor the data analysis scripts are not available for download.
       Using a p-value of 0.1 to get 'a result' feels dishonest to me.
-
     - ...
     - ...
     - ...
@@ -73,9 +72,43 @@ How would you criticise the paper?
 Do you feel that we are formally/professionally responsible
 for the learning of our participants? Why?
 
+???- question "Answers"
+
+    - R: Yes, get our learners to learn **is** the measure of successful
+      teaching. Have an idea of how many actually do so is a vital indicator,
+      even though 100% will not always be achieved with perfect teaching.
+    - ...
+    - ...
+    - ...
+
 <!-- Extra question -->
 Do you feel that feeling formally/professionally responsible
 for the learning of our participants is worth it? Why?
+
+???- question "Answers"
+
+    - R: Yes. Helping scientists do their work makes the world a better place
+    - ...
+    - ...
+    - ...
+
+<!-- Extra question -->
+Assuming taking responsibility is important for better teaching,
+could it be that we do not need to take responsibility anyways,
+as we get away with worse teaching (as compared to other settings)?
+
+???- question "Answers"
+
+    - R: Yes. I think there are multiple ways why we get away with worse
+      teaching. One of the reasons is that we are mild to our
+      beginner teachers; they are in the majority.
+      Additionally, our teachers have many other duties too,
+      hence we should be thankful to their time teaching.
+      Already these things make it possible to get away with worse teaching.
+    - ...
+    - ...
+    - ...
+
 
 Do you believe that we should do what this paper advises?
 
