@@ -77,8 +77,6 @@ for the learning of our participants? Why?
 Do you feel that feeling formally/professionally responsible
 for the learning of our participants is worth it? Why?
 
-
-
 Do you believe that we should do what this paper advises?
 
 ???- question "Answers"
@@ -109,12 +107,15 @@ On the other hand, you could say, following this paper: 'No, we
 only have our formal responsibilities'. I have scanned the SLL and NBIS
 Training Hubs and could not find any document to state we need to do more.
 
+<<<<<<< HEAD
 > Motivating the learner to learn is pertinent to curriculum implementation.
 > This is because motivation is an influential factor in the teaching-learning situations. 
 > The success of learning depends on whether or not the learners are motivated.
 > Motivation drives learners in reaching learning goals. 
 > It is important to recognize the fact that motivating learning is a central element of good teaching `[Filgona et al., 2020]`
 
+=======
+>>>>>>> 57c6028f2444c8075302c773ad97b99789b3e427
 
 ## Scribbles 1
 
