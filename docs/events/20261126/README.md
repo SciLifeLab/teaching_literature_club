@@ -20,9 +20,11 @@ Talk: why I chose this paper
 
 ???- question "Answers"
 
-    I wanted to know if reading the literature to improve teaching is worth it:
-    to which extent does it make one a better teacher.
-
+    I heard someone say that we -teachers- are not responsible for the
+    learning of our learners: if they are not motivated, that is their
+    problem. I enjoyed how pragmatic the idea is: it is way easier
+    to (prepare to) teach that way. So, I wondered, is feeling
+    responsible worth it?
 
 ???- question "Questions I will ask as an easy copy-paste"
 
