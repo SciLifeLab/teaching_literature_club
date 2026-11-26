@@ -67,6 +67,82 @@ How would you criticise the paper?
     - ...
     - ...
 
+<!-- Extra question -->
+Do you feel the findings are relevant, i.e. do you feel the
+effect sizes are big enough to matter?
+
+???- question "Figure 1 different"
+
+    This version has:
+
+    - the 0.1 < p < 0.05 values removed
+    - the 0.05 < p < 0.01 values in grey
+    - the 0.01 < p < 0.001 values in dashed black
+    - the p < 0.001 values in solid black
+
+
+    ```mermaid
+    flowchart LR
+        %% Nodes
+        SE["Teacher<br/>Self-efficacy"]
+        IT["Incremental<br/>Theory"]
+        SC["School Climate:<br/>Relationships with Students"]
+        
+        TR["Teacher Responsibility<br/>(R² = .11)"]
+        
+        MP["Mastery Practices<br/>(R² = .16)"]
+        CS["Career-choice Satisfaction<br/>(R² = .10)"]
+        WE["Work Engagement<br/>(R² = .13)"]
+
+        %% Solid lines (p <= 0.001, black, value retained)
+        SE -->|.26| TR
+        SE -->|.28| MP
+        CS <-->|.40| WE
+
+        %% Dotted lines (p: 0.01 - 0.001, dark gray, value retained)
+        TR -...->|.20| MP
+        SE -...->|.16| WE
+        SC -...->|.19| CS
+        SC -...->|.20| WE
+
+        %% Dashed lines (p: 0.05 - 0.01, light gray, value retained)
+        IT -.->|.13| TR
+        SC -.->|.13| TR
+        TR -.->|.18| CS
+        TR -.->|.15| WE
+        IT -.->|.11| WE
+        SE <-.->|.12| SC
+
+        %% Renderer Link Styling Rules
+        %% Solid links (0, 1, 2) - Black
+        linkStyle 0,1,2 stroke:#000000,stroke-width:2.5px;
+        %% Dotted links (3, 4, 5, 6) - Dark Gray (#444444)
+        linkStyle 3,4,5,6 stroke:#444444,stroke-width:2px,stroke-dasharray:6 6;
+        %% Dashed links (7, 8, 9, 10, 11, 12) - Light Gray (#aaaaaa)
+        linkStyle 7,8,9,10,11,12 stroke:#ddd,stroke-width:1.5px,stroke-dasharray:6 6;
+    ```
+
+???- question "Answers"
+
+    - R: I struggle with seeing this. 
+      E.g. 'Incremental theory' is put on a six-point Likert scale,
+      ranging from 1 (strongly agree) to 6 (strongly disagree).
+      Also, 'Teacher Responsibility' is put on a six-point Likert scale,
+      ranging from 0 (not at all) to 6 (completely) <!-- isn't that 7? -->
+      The effect size of IT to TR is 0.13. This means that a teacher
+      that fully believes in IT, he/she feels 0.13 * 5 = 0.65 more
+      responsibility. Is that a lot?
+    - ...
+    - ...
+    - ...
+
+
+
+
+
+The items were rated on a seven-point Likert scale, ranging from 0
+(not at all) to 6 (completely).
+
 
 <!-- Extra question -->
 Do you feel that we are formally/professionally responsible
@@ -140,15 +216,12 @@ On the other hand, you could say, following this paper: 'No, we
 only have our formal responsibilities'. I have scanned the SLL and NBIS
 Training Hubs and could not find any document to state we need to do more.
 
-<<<<<<< HEAD
 > Motivating the learner to learn is pertinent to curriculum implementation.
 > This is because motivation is an influential factor in the teaching-learning situations. 
 > The success of learning depends on whether or not the learners are motivated.
 > Motivation drives learners in reaching learning goals. 
 > It is important to recognize the fact that motivating learning is a central element of good teaching `[Filgona et al., 2020]`
 
-=======
->>>>>>> 57c6028f2444c8075302c773ad97b99789b3e427
 
 ## Scribbles 1
 
@@ -222,46 +295,6 @@ has four domains:
 > Values with **p < 0.01** are rendered in normal text.
 
 
-```mermaid
-flowchart LR
-    %% Nodes
-    SE["Teacher<br/>Self-efficacy"]
-    IT["Incremental<br/>Theory"]
-    SC["School Climate:<br/>Relationships with Students"]
-    
-    TR["Teacher Responsibility<br/>(R² = .11)"]
-    
-    MP["Mastery Practices<br/>(R² = .16)"]
-    CS["Career-choice Satisfaction<br/>(R² = .10)"]
-    WE["Work Engagement<br/>(R² = .13)"]
-
-    %% Solid lines (p <= 0.001, black, value retained)
-    SE -->|.26| TR
-    SE -->|.28| MP
-    CS <-->|.40| WE
-
-    %% Dotted lines (p: 0.01 - 0.001, dark gray, value retained)
-    TR -...->|.20| MP
-    SE -...->|.16| WE
-    SC -...->|.19| CS
-    SC -...->|.20| WE
-
-    %% Dashed lines (p: 0.05 - 0.01, light gray, value retained)
-    IT -.->|.13| TR
-    SC -.->|.13| TR
-    TR -.->|.18| CS
-    TR -.->|.15| WE
-    IT -.->|.11| WE
-    SE <-.->|.12| SC
-
-    %% Renderer Link Styling Rules
-    %% Solid links (0, 1, 2) - Black
-    linkStyle 0,1,2 stroke:#000000,stroke-width:2.5px;
-    %% Dotted links (3, 4, 5, 6) - Dark Gray (#444444)
-    linkStyle 3,4,5,6 stroke:#444444,stroke-width:2px,stroke-dasharray:6 6;
-    %% Dashed links (7, 8, 9, 10, 11, 12) - Light Gray (#aaaaaa)
-    linkStyle 7,8,9,10,11,12 stroke:#ddd,stroke-width:1.5px,stroke-dasharray:6 6;
-```
 
 Mastery learning has an effect size of 0.57 [John Hattie]
 
