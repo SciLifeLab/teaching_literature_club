@@ -160,7 +160,6 @@ effect sizes are big enough to matter?
     - ...
     - ...
 
-
 <!-- Extra question -->
 Do you feel that we are formally/professionally responsible
 for the learning of our participants? Why?
@@ -173,8 +172,6 @@ for the learning of our participants? Why?
     - ...
     - ...
     - ...
-
-
 
 <!-- Extra question -->
 Do you feel that feeling formally/professionally responsible
