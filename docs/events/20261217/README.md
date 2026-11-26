@@ -25,7 +25,7 @@ shows that the AI people have a higher initial skill:
 ![Initial skill per category](initial_skill_per_category.png)
 
 If we plot the skill change per category,
-we see no relevent difference anymore:
+we see no relevant difference anymore:
 
 ![Skill change per category](skill_change_per_category.png)
 

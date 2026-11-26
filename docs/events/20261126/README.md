@@ -258,7 +258,7 @@ flowchart TD
   grades than classroom teaching'
 - Mastery-goal classroom structure: a learning environment that emphasizes
   understanding, improvement, and developing skills, i.e.
-  competetion with self, not others
+  competition with self, not others
 
 My questions:
 
