@@ -28,15 +28,23 @@ Talk: why I chose this paper
 
 ???- question "Questions I will ask as an easy copy-paste"
 
-
     ```text
     1. What grade on a scale from 1 (worst) to 10 (best)
        would you give this paper?
     2. How would you summarize this paper in one line?
     3. How would you praise the paper?
     4. How would you criticise the paper?
-    5. Do you believe that we should do what this paper advises?
-    6. How does this paper make us better teachers?
+    5. Do you feel the findings are relevant, i.e. do you feel the
+       effect sizes are big enough to matter?
+    6. Do you feel that we are formally/professionally responsible
+       for the learning of our participants? Why?
+    7. Do you feel that feeling formally/professionally responsible
+       for the learning of our participants is worth it? Why?
+    8. Assuming taking responsibility is important for better teaching,
+       could it be that we do not need to take responsibility anyways,
+       as we get away with worse teaching (as compared to other settings)?
+    9. Do you believe that we should do what this paper advises?
+    10. How does this paper make us better teachers?
     ```
 
 What grade on a scale from 1 (worst) to 10 (best) would you give this paper?
@@ -165,6 +173,8 @@ for the learning of our participants? Why?
     - ...
     - ...
     - ...
+
+
 
 <!-- Extra question -->
 Do you feel that feeling formally/professionally responsible
