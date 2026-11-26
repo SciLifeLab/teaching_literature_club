@@ -37,19 +37,22 @@ What grade on a scale from 1 (worst) to 10 (best) would you give this paper?
 
 ???- question "Answers"
 
+    - R: 5
     - ...
+    - ...
+
 
 How would you summarize this paper in one line?
 
 ???- question "Answers"
 
-    - R: Teachers feeling responsible has some effects on other things
+    - R: Teachers feeling responsible has some effects on some things
 
 How would you praise the paper?
 
 ???- question "Answers"
 
-    - R: ...
+    - R: I enjoyed the introduction and the .
     - ...
     - ...
     - ...
@@ -64,6 +67,17 @@ How would you criticise the paper?
     - ...
     - ...
     - ...
+
+
+<!-- Extra question -->
+Do you feel that we are formally/professionally responsible
+for the learning of our participants? Why?
+
+<!-- Extra question -->
+Do you feel that feeling formally/professionally responsible
+for the learning of our participants is worth it? Why?
+
+
 
 Do you believe that we should do what this paper advises?
 
@@ -83,6 +97,23 @@ How does this paper make us better teachers?
     - ...
     - ...
     - ...
+
+
+##
+
+Even though this paper plots the relationships between some things,
+it does not answer the question: 'Are we responsible for the
+learning or motivation of our participants?'.
+
+On the other hand, you could say, following this paper: 'No, we
+only have our formal responsibilities'. I have scanned the SLL and NBIS
+Training Hubs and could not find any document to state we need to do more.
+
+> Motivating the learner to learn is pertinent to curriculum implementation.
+> This is because motivation is an influential factor in the teaching-learning situations. 
+> The success of learning depends on whether or not the learners are motivated.
+> Motivation drives learners in reaching learning goals. 
+> It is important to recognize the fact that motivating learning is a central element of good teaching `[Filgona et al., 2020]`
 
 
 ## Scribbles 1
@@ -193,9 +224,9 @@ flowchart LR
     %% Solid links (0, 1, 2) - Black
     linkStyle 0,1,2 stroke:#000000,stroke-width:2.5px;
     %% Dotted links (3, 4, 5, 6) - Dark Gray (#444444)
-    linkStyle 3,4,5,6 stroke:#444444,stroke-width:2px,stroke-dasharray:2 4;
+    linkStyle 3,4,5,6 stroke:#444444,stroke-width:2px,stroke-dasharray:6 6;
     %% Dashed links (7, 8, 9, 10, 11, 12) - Light Gray (#aaaaaa)
-    linkStyle 7,8,9,10,11,12 stroke:#aaaaaa,stroke-width:1.5px,stroke-dasharray:6 4;
+    linkStyle 7,8,9,10,11,12 stroke:#ddd,stroke-width:1.5px,stroke-dasharray:6 6;
 ```
 
 Mastery learning has an effect size of 0.57 [John Hattie]
@@ -234,3 +265,7 @@ The limited-to-complete continuum of teaching conceptions is summarized visually
 ![Figure from Rozhenkova et al., 2023](rozhenkova_et_al_2023_fig_1.png)
 
 - Rozhenkova, V., Snow, L., Sato, B. K., Lo, S. M., & Buswell, N. (2023). Limited or complete? Teaching and learning conceptions and instructional environments fostered by STEM teaching versus research faculty. International Journal of STEM Education, 10, 1-20. <https://doi.org/10.1186/s40594-023-00440-9>
+
+## References
+
+- `[Filgona et al., 2020]` Filgona, J., Sakiyo, J., Gwany, D. M., & Okoronka, U. A. (2020). Motivation in Learning. Asian Journal of Education and Social Studies, 10, 16-37. https://doi.org/10.9734/ajess/2020/v10i430273
