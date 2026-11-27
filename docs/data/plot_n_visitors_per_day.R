@@ -17,6 +17,9 @@ ggplot2::ggplot(t, ggplot2::aes(x = date, y = n)) +
   ) +
   ggplot2::labs(
     title = "Number of people per event",
-    caption = "Number of people, including the presenter(s)"
+    caption = paste0(
+      "Number of people, including the presenter(s).\n",
+      "Zero people denotes a cancellation."
+    )
   )
 ggplot2::ggsave("n_visitors_per_event.png", width = 5, height = 3)
