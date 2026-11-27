@@ -26,7 +26,7 @@ and discusses it in an informal way.
 - Day: Thursdays
 - Time: 15:05 (sharp!) to 15:55 (sharp!)
   Room will be open 15 minutes earlier
-- Duration: 55 minutes (max)
+- Duration: 50 minutes (max)
 - Meeting type: online-only
 - Online meeting room: <https://bit.ly/tlc_room_with_passcode_42>
 
@@ -46,7 +46,6 @@ Date                             | Person                  | Description
 - `[1]` due to Christmas
 - `[2]` you are welcome to take over to lead the discussion
 - `[3]` you are welcome to take over this spot in the schedule
-
 
 <!-- markdownlint-enable MD013 -->
 
