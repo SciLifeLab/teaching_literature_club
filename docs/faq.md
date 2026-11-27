@@ -49,6 +49,17 @@ The person having picked the reading material determines freely:
 
 Yes.
 
+## Why does the meeting start at 5 past the whole hour?
+
+Because 'sharp' is 'sharp' and people are not used to that.
+Hence, starting at the whole hour will cause too many attendees to be
+late.
+
+Starting at 5 minutes past the whole hour sharp should allow to:
+
+- Indeed start at the time indicated, as promised
+- Heling willing people to attend
+
 ## I want to attend and will be 5 minutes late. Am I welcome?
 
 Yes.
