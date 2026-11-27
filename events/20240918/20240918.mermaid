@@ -1,0 +1,92 @@
+flowchart TD
+
+  classDef effective_teaching_node fill:#fdd,color:#000,stroke:#f00
+  classDef effective_online_teaching_node fill:#dfd,color:#000,stroke:#0f0
+  classDef this_study_node fill:#ddf,color:#000,stroke:#00f
+  classDef bells_teaching_cycle_node fill:#ffd,color:#000,stroke:#dd0
+  classDef hattie_node fill:#fdf,color:#000,stroke:#d0d
+
+  this_corpus[This study's corpus]:::this_study_node
+  n_studies[104 studies]:::this_study_node
+  publication_year[Published 2013-2019]:::this_study_node
+  this_curpus_themes[This study's corpus's themes]:::this_study_node
+  course_design_factors[Course design factors]:::this_study_node
+  feedback_from_teacher[Feedback from teacher]:::this_study_node
+  student_support[Student support]:::this_study_node
+  faculty_pedagogy[Faculty pedagogy]:::this_study_node
+  student_engagement[Student engagement]:::this_study_node
+  student_success_factors[Student success factors]:::this_study_node
+
+  %% subgraph effective_teaching[Effective teaching]
+    %% subgraph effective_face_to_face_teaching[Effective face to face teaching]
+      multiple_pedagogies[Use of multiple pedagogies and learning resources]:::effective_teaching_node
+      high_instructor_presence[high instructor presence]:::effective_teaching_node
+      quality_of_faculty_to_student_interaction[quality of faculty-student interaction]:::effective_teaching_node
+      academic_support_outside_of_class[academic support outside of class]:::effective_teaching_node
+      promotion_of_classroom_cohesion_and_trust[promotion of classroom cohesion and trust]:::effective_teaching_node
+
+      multiple_pedagogies <---> 
+        high_instructor_presence <---> 
+        quality_of_faculty_to_student_interaction <---> 
+        academic_support_outside_of_class <---> 
+        promotion_of_classroom_cohesion_and_trust <---> 
+        multiple_pedagogies
+    %% end
+    %%subgraph effective_online_teaching[Effective online teaching]
+      all_effective_face_to_face_teaching[All of effective face to face teaching]:::effective_online_teaching_node
+      user_friendly_technology_tools[user-friendly technology tools]:::effective_online_teaching_node
+      orientation_to_online_instruction[orientation to online instruction]:::effective_online_teaching_node
+      opportunities_for_synchronous_class_sessions[opportunities for synchronous class sessions]:::effective_online_teaching_node
+      incorporation_of_social_media[incorporation of social media]:::effective_online_teaching_node
+
+      all_effective_face_to_face_teaching <--->
+        user_friendly_technology_tools <--->
+        orientation_to_online_instruction <--->
+        opportunities_for_synchronous_class_sessions <--->
+        incorporation_of_social_media <--->
+        all_effective_face_to_face_teaching
+    %%end
+
+    %% Bell's teaching cycle
+    bell_prior[Prior]:::bells_teaching_cycle_node
+    bell_present[Present]:::bells_teaching_cycle_node
+    bell_challenge[Challenge]:::bells_teaching_cycle_node
+    bell_feedback[Feedback]:::bells_teaching_cycle_node
+    bell_repeat[Repeat new skill]:::bells_teaching_cycle_node
+
+    bell_prior <--->
+      bell_present <--->
+      bell_challenge <--->
+      bell_feedback <---> 
+      bell_repeat <---> 
+      bell_prior
+
+    hattie_feedback[Feedback, 0.7]:::hattie_node
+    hattie_classroom_cohesion[Strong classroom cohesion, 0.44]:::hattie_node
+
+  %% end
+
+  this_corpus --> n_studies
+  this_corpus --> publication_year
+  this_corpus <--> this_curpus_themes
+  this_curpus_themes --> course_design_factors
+  course_design_factors --> |Evidence-based good practice| feedback_from_teacher
+  course_design_factors --> |Promising| promotion_of_classroom_cohesion_and_trust
+  course_design_factors --> |Promising| promotion_of_classroom_cohesion_and_trust
+  this_curpus_themes --> student_support
+  student_support --> |Promising| promotion_of_classroom_cohesion_and_trust
+  student_support --> |Promising| promotion_of_classroom_cohesion_and_trust
+  student_support --> |Promising| orientation_to_online_instruction
+  this_curpus_themes --> faculty_pedagogy
+  faculty_pedagogy --> |Evidence-based good practice| feedback_from_teacher
+  faculty_pedagogy --> |Promising| opportunities_for_synchronous_class_sessions
+  this_curpus_themes --> student_engagement
+  this_curpus_themes --> student_success_factors
+  
+  feedback_from_teacher <--->
+    quality_of_faculty_to_student_interaction <--->
+    bell_feedback <--->
+    hattie_feedback <--->
+    feedback_from_teacher
+
+  promotion_of_classroom_cohesion_and_trust <---> hattie_classroom_cohesion
