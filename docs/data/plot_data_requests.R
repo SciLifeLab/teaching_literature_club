@@ -20,4 +20,4 @@ ggplot2::ggplot(
     title = "Frequency of statuses"
   )
 
-ggplot2::ggsave("data_request_status_frequency.png", width = 3, height = 4)
+ggplot2::ggsave("data_request_status_frequency.svg", width = 3, height = 4)

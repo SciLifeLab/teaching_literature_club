@@ -17,7 +17,7 @@ The number of visitors per Teaching Literature Club event.
 | `date`       | The data in `YYYYMMDD` format                          |
 | `n`          | The number of people. This includes the presenter(s)   |
 
-![The number of visitors per event](data/n_visitors_per_event.png)
+![The number of visitors per event](data/n_visitors_per_event.svg)
 
 > The number of visitors per event
 
@@ -38,7 +38,7 @@ in the Teaching Literature Club.
 | `denied`       | The request was denied, |
 | `provided`     | The data was provided   |
 
-![Frequency of data requests](data/data_request_status_frequency.png)
+![Frequency of data requests](data/data_request_status_frequency.svg)
 
 > Frequency of data requests
 

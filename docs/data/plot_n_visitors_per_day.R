@@ -22,4 +22,4 @@ ggplot2::ggplot(t, ggplot2::aes(x = date, y = n)) +
       "Zero people denotes a cancellation."
     )
   )
-ggplot2::ggsave("n_visitors_per_event.png", width = 5, height = 3)
+ggplot2::ggsave("n_visitors_per_event.svg", width = 5, height = 3)
