@@ -34,8 +34,6 @@ and discusses it in an informal way.
 
 Date                             | Person                  | Description
 ---------------------------------| ------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-2026-10-29                       | No TLC                  | No TLC, due to autumn holiday
-2026-11-26                       | Richèl Bilderbeek       | Matteucci, M.C., Guglielmi, D. & Lauermann, F. Teachers' sense of responsibility for educational outcomes and its associations with teachers' instructional approaches and professional wellbeing. Soc Psychol Educ 20, 275–298 (2017). [DOI](https://doi.org/10.1007/s11218-017-9369-y)
 2026-12-17 `[1]`                 | ?Richèl Bilderbeek `[2]`| ?Kestin, Greg, et al. "AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting." Scientific Reports 15.1 (2025): 17458. [Link to paper](https://www.nature.com/articles/s41598-025-97652-6)
 2027-01-28 `[3]`                 | ?Richèl Bilderbeek `[2]`| ?Bruns, André Kalmendal, et al. "A comprehensive quality assessment of John Hattie’s Visible Learning." Educational Research Review (2026): 100865.
 2027-02-25 `[3]`                 | ?Richèl Bilderbeek `[2]`| ?Filgona, Jacob, et al. "Motivation in learning." Asian Journal of Education and social studies 10.4 (2020): 16-37.
