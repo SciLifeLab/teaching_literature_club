@@ -58,7 +58,7 @@ late.
 Starting at 5 minutes past the whole hour sharp should allow to:
 
 - Indeed start at the time indicated, as promised
-- Heling willing people to attend
+- Help people that are willing to actually attend
 
 ## I want to attend and will be 5 minutes late. Am I welcome?
 
