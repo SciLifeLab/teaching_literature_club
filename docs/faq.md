@@ -67,6 +67,9 @@ Yes.
 There is a chance the literature club has been cancelled, if,
 for example, there are zero attendees at the starting time.
 
+You can prevent this by [contacting us](contact_us.md),
+in which case we'll wait for you :+1:
+
 ## I want to attend without having read the paper. Am I welcome?
 
 Yes.
@@ -84,7 +87,7 @@ the reading materials one meeting in advance with the rest.
 
 To let us know:
 [create an issue](https://github.com/SciLifeLab/teaching_literature_club/issues)
-or send an email to `richel.bilderbeek@icm.uu.se`.
+or [contact us](contact_us.md).
 
 **Second**, on the day you discuss a paper or book chapter,
 you may determine freely:
@@ -96,7 +99,7 @@ The meeting will end sharply on time!
 
 ## I present a something and need to cancel at the last minute. What do I do?
 
-Create an Issue here or send an email to `richel.bilderbeek@icm.uu.se`.
+Create an Issue here or [contacting us](contact_us.md).
 Elin and Richel will always have a paper to be discussed ready.
 
 ## Why online-only?
@@ -147,7 +150,7 @@ You can share your feedback at this repository by:
 
 - creating an [Issue](https://github.com/SciLifeLab/teaching_literature_club/issues):
   this results in a public discussion and require a GitHub account
-- sending an email to `richel.bilderbeek@icm.uu.se`
+- [Contacting us](contact_us.md)
 - share your feedback in the next round:
   a round of collection of feedback is planned in November,
   i.e. after the third meeting.
@@ -169,6 +172,12 @@ For two reasons:
 
 The number of visitors per event can be found
 at [the 'Data' page](data.md).
+
+## What is the number of data requests that resulted in obtaining the data?
+
+The number of data requests (i.e. to get access to the data and analysis
+scripts of a paper) that resulted in obtaining the data
+can be found at [the 'Data' page](data.md).
 
 ## References
 
